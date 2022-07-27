@@ -8,7 +8,7 @@ namespace minidatum\Data{
 
         }
 
-        function generateId(string $id){
+        function generateId(?string $id=null){
             echo "Halo $this->customer, ID Anda adalah $id\n";
         }
     }
