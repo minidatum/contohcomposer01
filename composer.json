@@ -1,0 +1,16 @@
+{
+    "name": "minidatum/contohlib01",
+    "description": "Belajar Composer Lib",
+    "type": "library",
+    "authors": [
+        {
+            "name": "minidatum",
+            "email": "echo.alrendyssimarmata@gmail.com"
+        }
+    ],"autoload": {
+        "psr-4": {
+            "minidatum\\":"src/"
+        }
+    },
+    "require": {}
+}
